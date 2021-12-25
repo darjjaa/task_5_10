@@ -1,0 +1,73 @@
+﻿<Window x:Class="Task5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid x:Name="main">
+        <Menu Height="17" VerticalAlignment="Top" Margin="0,-5,0,0" x:Name="menu">
+            <MenuItem Header="Class">
+                <MenuItem Header="Comedy" Click="MenuItem_Click" ></MenuItem>
+                <MenuItem Header="Drama" Click="MenuItem_Click_1" ></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Property1" Margin="0,12,0,0" x:Name="property1" />
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Property2" Margin="0,17,0,0" x:Name="property2"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Property3" Margin="0,17,0,0" x:Name="property3"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Property4" Margin="0,17,0,0" x:Name="property4"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Property5" Margin="0,17,0,0" x:Name="property5"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Property6" Margin="0,17,0,0" x:Name="property6"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="p1" TextChanged="P1_TextChanged" Margin="0,12,0,0">10</TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="p2" TextChanged="P1_TextChanged" Margin="0,17,0,0">str</TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="p3" TextChanged="P1_TextChanged" Margin="0,17,0,0">str</TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="p4" TextChanged="P1_TextChanged" Margin="0,17,0,0">str</TextBox>
+        <TextBox Grid.Row="4" Grid.Column="1" x:Name="p5" TextChanged="P1_TextChanged" Margin="0,12,0,0">1s 1,2s 2,3s 3</TextBox>
+        <TextBox Grid.Row="5" Grid.Column="1" x:Name="p6" TextChanged="P1_TextChanged" Margin="0,12,0,0">1</TextBox>
+        <Label Grid.Row="6" Grid.Column="2" x:Name="stateobj"></Label>
+        <Button  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" x:Name="createObject" Click="CreateObject_Click">Create object</Button>
+        <TextBox Grid.Row="0" Grid.Column="3" x:Name="m1" TextChanged="P1_TextChanged" Margin="0,12,0,0">1s 1,c 2,3s 3</TextBox>
+        <TextBox Grid.Row="1" Grid.Column="3" x:Name="m2" TextChanged="P1_TextChanged" Margin="0,17,0,0">c</TextBox>
+        <TextBox Grid.Row="2" Grid.Column="3" x:Name="m3" TextChanged="P1_TextChanged" Margin="0,17,0,0">c</TextBox>
+        <TextBox Grid.Row="3" Grid.Column="3" x:Name="m4" TextChanged="P1_TextChanged" Margin="0,17,0,0">c</TextBox>
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Method1" Margin="0,12,0,0" x:Name="nm1" />
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Method2" Margin="0,17,0,0" x:Name="nm2"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="Method3" Margin="0,17,0,0" x:Name="nm3"/>
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="Method4" Margin="0,17,0,0" x:Name="nm4"/>
+        <TextBlock Grid.Row="0" Grid.Column="4"  Margin="0,12,0,0" x:Name="r1" />
+        <TextBlock Grid.Row="1" Grid.Column="4"  Margin="0,17,0,0" x:Name="r2"/>
+        <TextBlock Grid.Row="2" Grid.Column="4"  Margin="0,17,0,0" x:Name="r3"/>
+        <TextBlock Grid.Row="3" Grid.Column="4"  Margin="0,17,0,0" x:Name="r4"/>
+        <Button  Grid.Row="0" Grid.Column="5" x:Name="exm1" Click="Exm1_Click">Execute method 1</Button>
+        <Button  Grid.Row="1" Grid.Column="5" x:Name="exm2" Click="Exm2_Click">Execute method 2</Button>
+        <Button  Grid.Row="2" Grid.Column="5" x:Name="exm3" Click="Exm3_Click">Execute method 3</Button>
+        <Button  Grid.Row="3" Grid.Column="5" x:Name="exm4" Click="Exm4_Click">Execute method 4</Button>
+
+
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="203*"/>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="132*"/>
+        </Grid.ColumnDefinitions>
+
+    </Grid>
+
+</Window>

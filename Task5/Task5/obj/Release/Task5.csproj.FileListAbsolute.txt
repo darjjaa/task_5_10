@@ -1,0 +1,14 @@
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\bin\Release\Task5.exe.config
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\bin\Release\Task5.exe
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\bin\Release\Task5.pdb
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\MainWindow.g.cs
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\App.g.cs
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5_MarkupCompile.cache
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5_MarkupCompile.lref
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\MainWindow.baml
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5.g.resources
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5.Properties.Resources.resources
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5.exe
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5.pdb
+C:\Users\User\Downloads\Task5-master\Task5-master\Task5\obj\Release\Task5.csprojAssemblyReference.cache
